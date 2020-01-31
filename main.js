@@ -37,4 +37,7 @@ setTimeout(function(){ err.className="hidden"; }, 5000);
   
 }   );
 let unheart=document.getElementById();
-unheart.addEventListener()
+unheart.addEventListener('click',function(){
+  let wri=document.getElementById('like-glyph');
+  wri.className="";
+});
