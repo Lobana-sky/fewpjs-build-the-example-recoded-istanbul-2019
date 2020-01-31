@@ -25,7 +25,7 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         let wri=document.querySelectorAll('.like');
         for(let i=0;i<wri.length;i++)
         {
-          wri[i].className="activated-heart"; 
+          wri[i].className+=" activated-heart"; 
         }
        
       }
