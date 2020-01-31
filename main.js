@@ -20,7 +20,9 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
       } else {
         resolve("Pretend remote server notified of action!");
         
-        let wri=document.getElementById('201811189').
+        
+        
+        let wri=document.quer('201811189').
         wri.className="activated-heart";
       }
     }, 300);
