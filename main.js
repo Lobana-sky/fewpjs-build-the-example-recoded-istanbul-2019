@@ -26,7 +26,7 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         }
        
       }
-    }, 50000);
+    }, 300);
   });
 }
 mimicServerCall()
