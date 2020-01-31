@@ -44,6 +44,9 @@ setTimeout(function(){ err.className="hidden"; }, 5000);
 }   );
 let unheart=document.getElementById();
 unheart.addEventListener('click',function(){
-  let wri=document.getElementById('like-glyph');
-  wri.className="";
+ let wri=document.querySelectorAll('.like');
+        for(let i=0;i<wri.length;i++)
+        {
+          wri[i].className+="like"; 
+        }
 });
