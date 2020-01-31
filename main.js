@@ -39,11 +39,10 @@ err.className="";
 setTimeout(function(){ err.className="hidden"; }, 5000);
   
 }   );
-let unheart=document.getElementById();
-unheart.addEventListener('click',function(){
+
  let wri=document.querySelectorAll('.like-glyph');
         for(let i=0;i<wri.length;i++)
         {
-          wri[i].className+="like-glyph"; 
+          wri[i].addEventListener('click',function(){
+          wri[i].className+="like-glyph"; });
         }
-});
