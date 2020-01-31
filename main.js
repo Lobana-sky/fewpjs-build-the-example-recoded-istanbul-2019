@@ -24,7 +24,6 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         {
           wri[i].className+=" activated-heart"; 
         }
-       
       }
     }, 300);
   });
