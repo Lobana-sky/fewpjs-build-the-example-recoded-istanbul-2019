@@ -19,9 +19,6 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         reject("Random server error. Try again.");
       } else {
         resolve("Pretend remote server notified of action!");
-        
-        
-        
         let wri=document.querySelectorAll('.like-glyph');
         for(let i=0;i<wri.length;i++)
         {
