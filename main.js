@@ -22,8 +22,12 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         
         
         
-        let wri=document.quer('201811189').
-        wri.className="activated-heart";
+        let wri=document.querySelectorAll('.like');
+        for(let i=0;i<wri.length;i++)
+        {
+          wri[i].className="activated-heart"; 
+        }
+       
       }
     }, 300);
   });
